@@ -62,7 +62,7 @@ if (!empty($_POST) && $_SERVER['REQUEST_METHOD']==='POST')
             <a href="<?= admin_url('users')?>"><i class="fa fa-hand-o-right"></i> users</a> </h1>
         <?= messages();?>
        <form action="" method="post">
-           <div class="form-group form-group-sm">
+           <div class="form-group form-group-xm">
                <label for="name">Name:</label>
                <input type="text" id="name" name="name" value="<?=$name ?>" class="form-control" placeholder="enter name"/>
                <a style="color: red;"><?=$errors['name']?></a>

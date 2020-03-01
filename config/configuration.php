@@ -16,9 +16,10 @@ if (!function_exists('url'))
     function url($uri='')
     {
       $uri=trim($uri,'/');
-    $http_s=$_SERVER['REQUEST_SCHEME'];
     $serverName=$_SERVER['SERVER_NAME'];
-    return $http_s.'://'.$serverName.'/'.$uri;
+    return 'http://'.$serverName.':8888'.'/corephp/'.$uri;
+
+
 
     }
 }
