@@ -62,7 +62,7 @@ if (!empty($_POST) && $_SERVER['REQUEST_METHOD']==='POST')
             <a href="<?= admin_url('users')?>"><i class="fa fa-hand-o-right"></i> users</a> </h1>
         <?= messages();?>
        <form action="" method="post">
-           <div class="form-group form-group-xm">
+           <div class="form-group form-group-xs">
                <label for="name">Name:</label>
                <input type="text" id="name" name="name" value="<?=$name ?>" class="form-control" placeholder="enter name"/>
                <a style="color: red;"><?=$errors['name']?></a>
@@ -80,13 +80,13 @@ if (!empty($_POST) && $_SERVER['REQUEST_METHOD']==='POST')
                <a style="color: red;"><?=$errors['email']?></a>
            </div>
 
-           <div class="form-group form-group-sm">
+           <div class="form-group form-group-xs">
                <label for="password">Password:</label>
                <input type="password" id="password" name="password" class="form-control" placeholder="enter password"/>
                <a style="color: red;"><?=$errors['password']?></a>
            </div>
 
-           <div class="form-group form-group-sm">
+           <div class="form-group form-group-xs">
                <label for="confirm_password">confirm password:</label>
                <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="enter confirm password"/>
                <a style="color: red;"><?=$errors['confirm_password']?></a>

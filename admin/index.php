@@ -9,7 +9,7 @@ $getResquestUri .='.php';
 
 require_once root('admin/backend/layouts/header.php');
 require_once root('admin/backend/layouts/top-time.php');
-//require_once root('admin/backend/layouts/aside.php');
+require_once root('admin/backend/layouts/aside.php');
 $pagePath=root('admin/backend/pages/'. $getResquestUri);
 if ((file_exists($pagePath)) && is_file($pagePath))
 {

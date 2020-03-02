@@ -9,6 +9,6 @@
     <link rel="stylesheet" href="<?=url('public/backend/css/bootstrap.css') ?>">
     <link rel="stylesheet" href="<?=url('public/backend/public_html/assets/font-awesome/css/font-awesome.css') ?>">
     <link rel="stylesheet" href="<?=url('public/backend/public_html/nav.css') ?>">
-    <link rel="stylesheet" href="<?=url('public/basckend/public_html/custom.css') ?>">
+    <link rel="stylesheet" href="<?=url('public/backend/public_html/custom.css') ?>">
 </head>
 <body>
